@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+body {
+  background-color: #f3f8ff;
+  font-family: 'Poppins';
+}
+
+:root {
+  font-size: 100%;
+}
+
+.container1 {
+  background-color: #7579e7;
+  background-image: url(./assets/background.png);
+  background-position: center;
+  background-size: contain, cover;
+  color: #bedcfa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0px;
+  height: 500px;
+}
+
+
+.btn-contratar {
+  border: none;
+  background-color: #bedcfa;
+  color: #7579e7;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.container2 {
+  background-color: #bedcfa;
+  color: #1b262c;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container2 h1 {
+  color: #7579e7;
+}
+
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: #7579e7; 
+  background-image: linear-gradient(to top right, #7579e7, #9ab3f5);
+  box-shadow: 0 0 1em #98acf8;
+  text-align: center;
+  height: 300px;
+  width: 200px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.card h4 {
+  color: #000;
+}
+
+.cometa, .planeta, .astro {
+  padding-top: 10px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.container3 { 
+  background-color: #7579e7;
+  margin-top: 0px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0px;
+}
+
+.container3 h1 {
+  margin-top: 0px;
+}
+
+.btn-test {
+  border: none;
+  background-color: #bedcfa;
+  color: #7579e7;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.btn-proj {
+  border: none;
+  background-color: #bedcfa;
+  color: #7579e7;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.modelo {
+  background-color: #bedcfa;
+  width: 300px;
+  height: 700px;
+  border-radius: 8px;
+  text-align: center;
+  display: block;
+  align-items: center;
+}
+
+.lpmodelo1,.lpmodelo2 {
+  max-width: 250px;
+  max-height: 600px;
+}
+
+.container4 {
+  background-color: #bedcfa;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.container4 h1 {
+  margin-top: 0px;
+  text-align: center;
+  color: #7579e7;
+}
+
+.social {
+  text-align: center;
+  justify-content: center;
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-text {
+  margin-right: auto;
+  padding: 20px;;
+}
+
+.social-text h4, .social-text p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.instagram, .linkedin {
+  display: flex;
+  align-items: center;
+}
+
+.ig-icon {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.linkedin-icon{
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.email-container {
+  background-image: linear-gradient(to bottom, #bedcfa, #98acf8);
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+
+.email-icon{
+  max-width: 50px;
+  max-height: 50px;
+}
