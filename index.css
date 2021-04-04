@@ -14,6 +14,10 @@ body {
   font-size: 100%;
 }
 
+p {
+  font-size: 1em;
+}
+
 .container1 {
   background-color: #7579e7;
   background-image: url(./assets/background.png);
@@ -29,14 +33,22 @@ body {
   height: 500px;
 }
 
-
-.btn-contratar {
-  border: none;
+a.btn-contratar {
+  display:inline-block;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration:none!important;
+  font-weight: 600;
+  font-size: 1.2em;
   background-color: #bedcfa;
   color: #7579e7;
-  border-radius: 20px;
-  padding: 10px;
-  font-size: 1.5em;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+a.btn-contratar:hover {
+  background-color:#98acf8;
+  color: #deecff;
 }
 
 .container2 {
@@ -45,7 +57,7 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   text-align: center;
-  padding: 10px;
+  padding: 40px;
   align-items: center;
   justify-content: center;
 }
@@ -62,38 +74,38 @@ body {
   justify-content: center;
 }
 
-.card {
-  background-color: #7579e7; 
-  background-image: linear-gradient(to top right, #7579e7, #9ab3f5);
-  box-shadow: 0 0 1em #98acf8;
-  border: none;
-  text-align: center;
-  height: 300px;
-  width: 200px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  padding: 10px;
-}
-
-.card h4 {
-  color: #000;
-}
-
-.icon-container {
+.card-group{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.cometa, .planeta, .astro {
+.card {
+  margin: 20px;
+  background-color: #7579e7;
+  background-image: linear-gradient(to top right, #7579e7, #9ab3f5);
+  box-shadow: 0 0 1em #98acf8;
+  border-radius: 6px;
+  max-height: 300px;
+  max-width: 200px;
+  border: none!important;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img-top {
   padding-top: 10px;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 100px!important;
+  max-height: 100px!important;
 }
 
 .container3 { 
   background-color: #7579e7;
-  margin-top: 0px;
+  margin: 0px!important;
   align-items: center;
   justify-content: center;
   padding: 30px 0px;
@@ -106,23 +118,54 @@ body {
   padding-bottom: 10px;
 }
 
-.btn-test {
-  border: none;
+.carousel {
+  margin: 10px;
+}
+
+.carousel-inner {
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.btn-test {
+  display:inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration:none!important;
+  font-weight: 600;
   background-color: #bedcfa;
   color: #7579e7;
-  border-radius: 20px;
-  padding: 10px;
-  font-size: 20px;
+  text-align:center;
+  transition: all 0.2s;
   margin: 5vh;
 }
 
-.btn-proj {
-  border: none;
+a.btn-test:hover {
+  background-color:#98acf8;
+  color: #deecff;
+}
+
+a.btn-proj {
+  display:inline-block;
+  padding: 10px;
+  border-radius:10px;
+  text-decoration:none!important;
+  font-weight: 600;
   background-color: #bedcfa;
   color: #7579e7;
-  border-radius: 20px;
-  padding: 10px;
-  font-size: 20px;
+  text-align:center;
+  transition: all 0.2s;
+  margin: 5vh;
+}
+
+a.btn-proj:hover {
+  background-color:#98acf8;
+  color: #deecff;
 }
 
 .modelo {
@@ -161,12 +204,14 @@ body {
 
 .social-text {
   margin-right: auto;
-  padding: 20px;;
+  padding: 20px;
+  text-align: center;
 }
 
 .social-text h4, .social-text p {
   margin: 0px;
   padding: 0px;
+  font-size: 1rem;
 }
 
 .instagram, .linkedin {
@@ -194,4 +239,5 @@ body {
 .email-icon{
   max-width: 50px;
   max-height: 50px;
+  padding-bottom: 5px;;
 }
