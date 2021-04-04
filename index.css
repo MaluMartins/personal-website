@@ -66,6 +66,7 @@ body {
   background-color: #7579e7; 
   background-image: linear-gradient(to top right, #7579e7, #9ab3f5);
   box-shadow: 0 0 1em #98acf8;
+  border: none;
   text-align: center;
   height: 300px;
   width: 200px;
@@ -76,6 +77,12 @@ body {
 
 .card h4 {
   color: #000;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cometa, .planeta, .astro {
@@ -94,6 +101,9 @@ body {
 
 .container3 h1 {
   margin-top: 0px;
+  text-align: center;
+  color: #bedcfa;
+  padding-bottom: 10px;
 }
 
 .btn-test {
@@ -103,6 +113,7 @@ body {
   border-radius: 20px;
   padding: 10px;
   font-size: 20px;
+  margin: 5vh;
 }
 
 .btn-proj {
@@ -122,11 +133,6 @@ body {
   text-align: center;
   display: block;
   align-items: center;
-}
-
-.lpmodelo1,.lpmodelo2 {
-  max-width: 250px;
-  max-height: 600px;
 }
 
 .container4 {
