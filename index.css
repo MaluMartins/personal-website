@@ -20,7 +20,7 @@ p {
 
 .container1 {
   background-color: #7579e7;
-  background-image: url(./assets/background.png);
+  background-image: url(./img/background.png);
   background-position: center;
   background-size: contain, cover;
   color: #bedcfa;
