@@ -47,6 +47,11 @@ a.btn-contratar:hover {
   color: white;
 }
 
+.btn-container4 {
+  display: flex;
+  justify-content: center;
+}
+
 .accordion-body {
   color: black!important;
 }
