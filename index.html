@@ -1,107 +1,141 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Malu Martins</title>
 
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malu Martins</title>
+
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
+
 <body>
-    <div class="app">
-        <div class="container1">
-          <div class="content1">
-            <h1>MALU <br /> MARTINS</h1>
-            <p>Vou construir uma landing page para o seu negócio!</p>
-            <div class="btn-container">
-              <a class="btn-contratar" href="https://www.workana.com/freelancer/9e8b5b7a9a6818f197e9ba733fdfe30c?ref=user_dropdown">Me contrate</a> 
-            </div>
+  <div class="container1">
+    <div class="content1">
+      <h1 class="name">Construa presença na internet</h1>
+      <p>Estar presente na internet é fundamental para todo negócio. Estar fora da internet significa perder grandes
+        oportunidades de crescimento. Não fique de fora, esteja sempre à frente.</p>
+      <div class="btn-container">
+        <a class="btn-contratar" href="#">Tenha um site</a>
+      </div>
+    </div>
+    <img class="main-img display-none" src="main-img.png" alt="">
+  </div>
+
+  <div class="container2">
+    <div class="content2">
+      <!--<img src="eu.png" alt="">-->
+      <h2>Malu Martins - quem sou eu?</h2>
+      <p>Olá, eu sou a Malu. Sou programadora e Web Designer.
+
+        Comecei a me interessar por programação em 2019, com alguns vídeos sobre lógica de programação no YouTube. E em
+        2020, eu já estava cursando Desenvolvimento de Sistemas. No curso, me foi apresentada a Programação Web, e essa
+        era a matéria que eu mais amava, e que ainda amo, do curso todo.</p>
+      <p>Em 2021 eu comecei minha jornada profissional, como freelancer. Me lembro muito bem de meu primeiro projeto,
+        que foi um divisor de águas na minha vida. Foi esse projeto que me fez decidir continuar fazendo isso, mesmo com
+        todas os desafios que tive durante o caminho. Nesse período, eu já havia começado meu Instagram sobre meu
+        trabalho, e foi aí que eu me comprometi a levar a programação para a minha vida.</p>
+      <p>Com o tempo, mais e mais projetos apareceram e foi então que eu decidi criar essa página em que você está agora
+        mesmo. Meu objetivo se tornou maior do que simplesmente me tornar uma desenvolvedora, hoje eu sinto que posso
+        realmente fazer algo pelas pessoas que precisam de ajuda com a internet, e principalmente, fazer com que
+        negócios digitais alcancem resultados incríveis, e que os negócios físicos construam sua presença na internet.
+      </p>
+    </div>
+  </div>
+
+  <div class="container3">
+    <h2>Projetos anteriores</h2>
+    <img class="proj-img" src="./img/advocacia-proj.png" alt="">
+    <img class="proj-img" src="./img/ecommerce-proj.png" alt="">
+    <img class="proj-img" src="./img/mundosdeagua-proj.png" alt="">
+  </div>
+
+  <div class="container4">
+    <h2>Avaliações</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          Column
+        </div>
+        <div class="col">
+          Column
+        </div>
+        <div class="col">
+          Column
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container5">
+    <h2>Perguntas frequentes</h2>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            "Você trabalha com hospedagem?"
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Sim. Eu posso configurar a hospedagem do seu site em qualquer serviço que
+            preferir. Se você não tiver conhecimento sobre serviços de hospedagem, eu posso tomar conta de tudo sem
+            maiores problemas. <br><br> Obs: a manutenção do site e da hospedagem pós entrega implicam em custos adicionais.
           </div>
         </div>
-        
-          <div class="container2">
-            <h1>Por que me contratar?</h1>
-            <p>Se você trabalha com Marketing Digital e precisa de uma landing page para o seu negócio,
-              meus serviços são pra você!
-            </p>
-
-
-            <div class="card-group">
-              <div class="card">
-                <div class="img-container">
-                  <img class="card-img-top" src="./img/icon1.svg" alt="Card image cap">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Programação</h5>
-                  <p class="card-text">Sua landing page será programada 100% por mim - assim como o site em que você está agora!</p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="img-container">
-                  <img class="card-img-top" src="./img/icon2.svg" alt="Card image cap">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Web Design</h5>
-                  <p class="card-text">O design de sua landing page será único e exclusivo, de acordo com suas preferências.</p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="img-container">
-                  <img class="card-img-top" src="./img/icon3.svg" alt="Card image cap">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Delegue</h5>
-                  <p class="card-text">Delegue essa tarefa a mim e economize mais tempo para investir em seu negócio!</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-  
-          <div class="container3">
-            <div class="content3">
-              <h1>Projetos anteriores</h1>
-  
-              
-              
-              <div class="buttons">
-                <a class="btn-proj" href="https://github.com/MaluMartins">Acompanhe projetos em andamento</a>
-              </div>
-            </div>
-          </div>
-  
-          <div class="container4">
-            <h1>Minhas redes sociais</h1>
-            <div class="social-container">
-              <div class="social">
-                <div class="instagram">
-                  <img src="./img/instagram.svg" class="ig-icon" alt="instagram-icon" />
-                  <div class="social-text">
-                    <h4>Aprenda um pouco mais sobre tecnologia</h4>
-                    <p>@codingmalu</p>
-                  </div>
-                </div>
-                <div class="linkedin">
-                  <img src="./img/linkedin.svg" class="linkedin-icon" alt="linkedin-icon" />
-                  <div class="social-text">
-                    <h4>Saiba mais sobre mim e meu trabalho</h4>
-                    <p>@Malu-Martins</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="email-container">
-            <img src="./img/email.svg" class="email-icon" alt="email-icon" />
-            <h4>Entre em contato comigo</h4>
-            <span>martinsmalucontato@gmail.com</span>
-          </div>
       </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            "Quanto você cobra por um site?"
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            O orçamento de um projeto depende muito de diversos fatores, entre eles: quantidade de páginas, quantidade de funcionalidades, camadas de programação, etc. O seu orçamento será enviado pelo e-mail após o preenchimento do formulário.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            "Como funciona o pagamento?"
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Por enquanto, os únicos métodos de pagamento são PIX e transferência bancária.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            "A compra é segura?"
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Todos os serviços e transações realizados são garantidos por um contrato legal.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
