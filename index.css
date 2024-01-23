@@ -5,7 +5,7 @@ html, body {
   padding: 0!important;
 }
 
-.container1 {
+.container1, .container3 {
   background-color: #222831;
   color: white;
 }
@@ -42,11 +42,6 @@ a.btn-contratar:hover {
   border-radius: 5px;
 }
 
-.container3 {
-  background-color: #222831;
-  color: white;
-}
-
 .btn-container4 {
   display: flex;
   justify-content: center;
@@ -54,6 +49,12 @@ a.btn-contratar:hover {
 
 .accordion-body {
   color: black!important;
+}
+
+.card {
+  background-color: #222831!important;
+  color: white;
+  border: solid 2px white!important;
 }
 
 
