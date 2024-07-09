@@ -55,6 +55,11 @@ a.btn-contratar:hover {
   background-color: #222831!important;
   color: white;
   border: solid 2px white!important;
+  box-shadow: 0 .5em 1em #4b4b4b!important;
+}
+
+.card-body {
+  text-align: center;
 }
 
 
